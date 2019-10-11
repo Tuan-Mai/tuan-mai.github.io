@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -1652,8 +1647,10 @@
 		font-size: 0.9em;
 	}
 
+
+	/* Change the about summary */
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: -3em 0 1.5em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2844,10 +2841,11 @@
             flex-direction: row;
         }
 
+		/* Change Size of About Picture Spotlight */
         .wrapper.spotlight .image {
             border-radius: 100%;
-            margin: 0 3em 2em 0;
-            width: 22em;
+            margin: 0 3em 5em -10em;
+            width: 20em;
             overflow: hidden;
             -ms-flex: 1;
         }
@@ -3558,8 +3556,8 @@
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
 
-            /* Font size of Landing font*/
-			font-size: 4.5em;
+            /* Font size of Landing font - TUAN MAI*/
+			font-size: 3.5em;
             font-family: Raleway, Arial;
             font-weight: 300;
 
@@ -3997,7 +3995,7 @@
         white-space: nowrap;
         left: 0;
         top: 0;
-        font-size: 100px;
+        font-size: 80px;
         font-family: Raleway;
         font-weight: 500;
     }

@@ -1649,8 +1649,12 @@
 
 
 	/* Change the about summary */
+	#about {
+		margin: -2em -9em 1.5em 5em;
+	}
+
 	header.major {
-		margin: -3em 0 1.5em 0;
+		margin: 0 0 3.5em 0em;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2054,6 +2058,11 @@
 			padding-left: 0;
 		}
 
+		ul.icons
+		{
+			font-size: 2em;
+		}
+
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
@@ -2064,7 +2073,7 @@
 				}
 
 			ul.icons.major {
-				padding: 1em 0;
+				padding: 1em 6em;
 			}
 
 				ul.icons.major li {
@@ -2543,6 +2552,9 @@
 				width: 100%;
 			}
 
+			/* Spotlight text */
+			
+
 		.spotlight .content {
 			padding: 2em 4em 0.1em 4em ;
 			-moz-order: 2;
@@ -2551,6 +2563,10 @@
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+		}
+		
+		#summary {
+			padding: 2em 4em 0em 0em ;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2841,10 +2857,10 @@
             flex-direction: row;
         }
 
-		/* Change Size of About Picture Spotlight */
+		/* Change Size of Spotlight About Picture */
         .wrapper.spotlight .image {
             border-radius: 100%;
-            margin: 0 3em 5em -10em;
+            margin: 0 3em 9em -8em;
             width: 20em;
             overflow: hidden;
             -ms-flex: 1;

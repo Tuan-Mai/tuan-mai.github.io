@@ -2866,7 +2866,7 @@ ul#header li {
 		/* Change Size of Spotlight About Picture */
         .wrapper.spotlight .image {
             border-radius: 100%;
-            margin: 0 3em 9em -8em;
+            margin: 0 3em 9em 0em;
             width: 20em;
             overflow: hidden;
             -ms-flex: 1;

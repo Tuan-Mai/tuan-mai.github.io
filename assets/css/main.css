@@ -2864,20 +2864,20 @@ ul#header li {
         }
 
 		/* Change Size of Spotlight About Picture */
-        .wrapper.spotlight .image {
+        .wrapper.special .image {
             border-radius: 100%;
-            margin: 0 3em 9em -5em;
+            margin: 0em 0em 2em 0em;
             width: 20em;
             overflow: hidden;
             -ms-flex: 1;
         }
 
-            .wrapper.spotlight .image img {
+            .wrapper.special .image img {
                 border-radius: 100%;
                 width: 100%;
             }
 
-        .wrapper.spotlight .content {
+        .wrapper.special .content {
             width: 100%;
             -ms-flex: 2;
         }

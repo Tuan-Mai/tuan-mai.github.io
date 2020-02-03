@@ -1650,7 +1650,7 @@
 
 	/* Change the about summary */
 	#about {
-		margin: -2em -9em 1.5em 5em;
+		margin: -2em 0em 1.5em 5em;
 	}
 
 	header.major {

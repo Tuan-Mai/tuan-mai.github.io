@@ -1650,7 +1650,7 @@
 
 	/* Change the about summary */
 	#about {
-		margin: -2em 0em 1.5em 0em;
+		margin: -2em -10em 1.5em -10em;
 	}
 
 	header.major {
@@ -2866,7 +2866,7 @@ ul#header li {
 		/* Change Size of Spotlight About Picture */
         .wrapper.spotlight .image {
             border-radius: 100%;
-            margin: 0 3em 9em 0em;
+            margin: 0 0em 9em 0em;
             width: 20em;
             overflow: hidden;
             -ms-flex: 1;

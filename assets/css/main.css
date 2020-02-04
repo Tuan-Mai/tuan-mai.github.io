@@ -1650,7 +1650,7 @@
 
 	/* Change the about summary */
 	#about {
-		margin: -2em -10em 1.5em 0em;
+		margin: -2em 0em 1.5em 0em;
 	}
 
 	header.major {
@@ -2736,7 +2736,8 @@ ul#header li {
 }
 
 .wrapper {
-    background-color: #2e3141;
+	/* About Summary Background Colour */
+    background-color: #4b2b70;
 
     position: relative;
 }
@@ -2867,7 +2868,7 @@ ul#header li {
         .wrapper.special .image {
             border-radius: 100%;
             margin: 0em 0em 2em 0em;
-            width: 20em;
+            width: 15em;
             overflow: hidden;
             -ms-flex: 1;
         }
@@ -3426,6 +3427,9 @@ ul#header li {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #2e3842;
+		/*Color of the menu bar at the top
+		
+		background: #361f50;*/
 		height: 3em;
 		left: 0;
 		line-height: 3em;

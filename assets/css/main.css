@@ -1462,7 +1462,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: none 1px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2427,13 +2427,31 @@ ul#header li {
 		width: 100%;
 	}
 
-		.features li {
-			padding: 4em 4em 2em 6em ;
+	.image-projects img {
+		border: 0;
+		display: block;
+		position: relative;
+		text-align: left;
+		width: 100%;
+		height: 100;
+		
+	}
+
+	a .image-projects img{
+		border-bottom: none;
+		
+	}
+
+		.features li{
+			padding: 2em 2.5em 0em 2.5em ;
 			display: block;
 			position: relative;
-			text-align: left;
+			text-align: center;
 			width: 50%;
 		}
+
+
+		
 
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
@@ -3444,6 +3462,7 @@ ul#header li {
 		background: #2e3842;
 		/*Color of the menu bar at the top
 		
+		background: #2e3842;
 		background: #361f50;*/
 		height: 3em;
 		left: 0;

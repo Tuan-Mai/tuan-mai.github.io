@@ -2689,10 +2689,11 @@ ul#header li {
     padding: 11em 0 2.25em 0;
 }
 
+
     #wrapper > header .inner {
         margin: 0 auto;
         width: 55em;
-    }
+	}
 
     #wrapper > header h2 {
         border-bottom: solid 2px rgba(255, 255, 255, 0.125);
@@ -2788,6 +2789,11 @@ ul#header li {
 
 		.wrapper.style0.text {
 			text-align: left;
+		}
+
+		.textRight{
+			float: right;
+			font-size: medium;
 		}
 	
     .wrapper.style2 {
@@ -3476,6 +3482,8 @@ ul#header li {
 		width: 100%;
 		z-index: 10000;
 	}
+
+	
 
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;

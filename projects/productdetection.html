@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Generic</title>
+		<title>Tuan Mai | Product Detection</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -58,20 +58,73 @@
 					<article id="main">
 						<header>
 							<h2>Product Detection</h2>
-							<p>A Computer Vision application on the iPad<br /> to detect distinct products</p>
+							<p>An iOS Application Utilizing Computer Vision <br /> to detect distinct products</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>Lorem ipsum dolor</h3>
+								<h3>Abstract</h3>
+
+								<p>Computer vision is becoming an increasingly critical area of research and its
+									applications to real-world problems is growing at an incredible pace. We
+									describe the design, development and evaluation of our computer vision iPad app for
+									Sales Representatives in grocery store environments. Our system aims to assist Sales
+									Reps to be more productive, reduce errors and provide increased efficiencies. We
+									report on the creation of the iPad app, the design pattern for good detectors and the
+									results of professional Sales Reps evaluating our system. Our system was tested in a
+									variety of conditions in grocery store environments and has an accuracy of 96%, a
+									SUS usability score of 85, and supports up to 40 detectors running concurrently to
+									perform product identification in less than 5.9 seconds. We also created a design
+									pattern to enable other researchers to create their own detectors for these types of
+									products in complex environments (e.g., products with very similar packaging located
+									on shelves). </p>
 
 								<iframe width="1080	" height="610"
 								src="https://www.youtube.com/embed/NirKSSFtRjE">
 								</iframe>
 
-								<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+								<br /><br />
 
-								<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+								<h3>The Problem</h3>
+
+								<p>The way in which consumer packaged goods companies are keeping track of product availability
+									and positioning at retail locations is not efficient. Currently, the most common approach
+									involves having company representatives manually checking shelf layouts, stocks, position and
+									orientation of products. Sales Reps assess stores to ensure they meet their client's standards
+									and are compliant with contracts and protocols. At this time, virtually all of these processes are
+									done manually with paper and pen using planograms (a diagram or model that indicates the placement
+									of retail products on shelves to maximize sales). Of the relatively few apps available to
+									support Sales Reps, they are limited in functionality and typically only address a small number of
+									business-oriented questions using tablets.<p>
+
+
+								<h3>Our Goals</h3>
+								<p>The motivation behind this work is to enhance
+									the use of mobile technologies in combination with computer vision to increase efficiencies of
+									Sales Reps in the field. To this end, we set out to design and implement a system to accomplish
+									this goal. The following list is the set of desirable characteristics we specified at the onset of the
+									work:</p>
+
+									<ol>
+										<li>an advanced tool for Sales Reps to be more productive, reduce human errors, and
+											increase their efficiencies;</li>
+										<li>the detectors need to be accurate at recognizing objects of interest while discerning
+											objects that are very similar (e.g., must distinguish between Minute Maid Original and
+											Minute Maid Calcium);</li>
+										<li>given an image of a grocery shelf containing potentially 50 different products, a
+											successful detector must recognize at least one of several objects of interest (e.g., one
+											Minute Maid Original from several on the shelf) and not identify any other products (no
+											False Positives);</li>
+										<li>the detectors need to be robust and operate successfully in a variety of conditions in
+											grocery stores (e.g., variances in the lighting, orientation of products, obstructions, etc.);</li>
+										<li>the implementation needs to be computationally efficient and run in real-time on the
+											Sales Rep’s iPad without any network connectivity (the memory limitation is 1.5GB, and
+											the system must be able to recognize up to 40 unique products within 20s)1;</li>
+										<li>create a design pattern for the creation of training sets for other researchers to create their
+											own detectors for similar types of products and environments (e.g. grocery shelves
+											consisting of very similar products). The objective here is to create a repeatable design
+											process that addresses similar problems.</li>
+									</ol>
 
 								<hr />
 

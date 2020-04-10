@@ -59,6 +59,12 @@
 						<header>
 							<h2>Product Detection</h2>
 							<p>An iOS Application Utilizing Computer Vision <br /> to detect distinct products</p>
+							
+							<ul class="actions small">
+								
+								<li><a href="" target="_blank" class="button small">Unpublished Paper Available Upon Request</a></li>
+							</ul>
+
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
@@ -128,10 +134,56 @@
 
 								<hr />
 
-								<h4>Feugiat aliquam</h4>
-								<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
+								<h4>Image Recognition - Tools and Technologies</h4>
+								<p>One of our goals is to create accurate detectors that recognize objects of interest while discerning
+									objects that are very similar. For example, the detector needs to distinguish between a Minute
+									Maid Original product from a Minute Maid Calcium product. These two images in
+									colour (as humans would see and differentiate between the two) and greyscale (as some
+									computer vision systems see these images). The degree of similarities between these two images
+									is quite subtle. It is difficult for the human eye to differentiate between these two amongst 50
+									similar projects on shelves. It is more difficult to design an algorithm to detect these differences.</p>
 
-								<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
+									<div class="box alt">
+										<div class="row uniform 50%">
+											<div class="3u"><span class="image fit"><img src="../images/productDetection/mmOriginalColour.png" alt="" /></span></div>
+											<div class="3u"><span class="image fit"><img src="../images/productDetection/mmCalciumColour.png" alt="" /></span></div>
+											<div class="3u"><span class="image fit"><img src="../images/productDetection/mmOriginalGrey.png" alt="" /></span></div>
+											<div class="3u"><span class="image fit"><img src="../images/productDetection/mmCalciumGrey.png" alt="" /></span></div>
+										</div>
+									</div>
+
+								<p>After conducting a survey of candidate computer vision algorithms based on the following criteria: 
+									(1) accuracy, (2) computational speed,
+									(3) memory efficiency, (4) ease of use (i.e., implementation with supporting documentation), and
+									(5) portability (for mobile device use). We evaluated the following computer vision algorithms
+									using this criteria: Cascade Object Recognition Algorithm, Mean Shift Segmentation, and Support
+									Vector Machines. During the review and evaluation process, it
+									became clear that the Cascade Object Recognition Algorithm was the most feasible since it
+									provided the greatest potential to satisfy the requirements of the proposed research.</p>
+									
+									<div class="12u"><span class="image fit"><img src="../images/productDetection/cora.png" alt="" /></span></div>
+
+
+									<p>
+										MATLAB was used to implement the Cascade Object Recognition Algorithm which we created a system
+										for building object detectors relative to our products of interest. After testing during developement
+										and once a level of 80% accuracy without false positives using real-life test images was achieved in
+										MATLAB, we implemented the object recognition portion of our system as a native iPad app.
+										The open source computer vision library (OpenCV) was used for the object recognition on
+										the iPad. OpenCV is also used in MATLAB's Computer Vision System Toolbox,
+										allowing our detectors to be ported from MATLAB to iOS.
+									</p>
+
+									<div class="row uniform 50%">
+										<div class="6u"><span class="image fit"><img src="../images/productDetection/accurate.png" alt="" /><p style="text-align: center;">Accurate</p></span></div>
+										<div class="6u"><span class="image fit"><img src="../images/productDetection/inaccurate.png" alt="" /><p style="text-align: center;">Inaccurate</p></span></div>
+
+									</div>
+
+
+									<hr>
+									<h3>iPad Proof of Concept UI</h3>
+									<div class="12u"><span class="image fit"><img src="../images/productDetection/iPadCV.png" alt="" /></span></div>
 
 							</div>
 						</section>

@@ -2756,7 +2756,8 @@ ul#header li {
 
 .wrapper {
 	/* About Summary Background Colour */
-    background-color: #4b2b70;
+    /* background-color: #4c3864; */
+    background-color: #5a4a6d;
 
     position: relative;
 }
@@ -2766,7 +2767,7 @@ ul#header li {
 
 
 
-    .wrapper .inner {
+    .wrapper .inner {	
         padding: 3em 0 1em 0;
         margin: 0 auto;
         width: 55em;

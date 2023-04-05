@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 
 /* Reset */
@@ -4261,6 +4262,8 @@ b i:last-child {
     color: dodgerblue !important;
 }
 
+/* Styling for slogan
+*/
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
